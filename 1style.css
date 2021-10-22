@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    padding: 20px 50px;
+    border: 200px;
+    border-color: snow;
+    background-color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: snow 50px;
+    border-right: snow 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-color: black;
+    }
+    20%{
+        background-color: blue;
+    }
+   40%{
+        background-color: crimson;
+    }
+}
